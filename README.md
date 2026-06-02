@@ -1,6 +1,6 @@
 # Communication Automation Platform
 
-Professional responsive frontend concept for a SaaS product that helps businesses manage Email, WhatsApp, SMS and Voice Call campaigns from one dashboard.
+Professional responsive frontend prototype for a SaaS product that helps businesses manage Email, WhatsApp, SMS and Voice Call campaigns from one dashboard.
 
 ## Frontend Stack
 
@@ -10,17 +10,26 @@ Professional responsive frontend concept for a SaaS product that helps businesse
 - Vite
 - Lucide React icons
 
-## Included UI Modules
+## Backend Direction
 
-- Authentication overview
-- KPI dashboard
-- Contact management with groups
-- Email, WhatsApp, SMS and Voice campaign modules
-- Campaign scheduler and monitoring
-- Analytics and dummy charts
-- Billing plans, wallet and usage-ready sections
-- Admin panel and support ticket preview
-- Future roadmap for AI, CRM, Telegram and push notifications
+The frontend dummy data is structured for a future Node.js + Express.js + TypeScript backend using MongoDB, Redis/BullMQ and S3/Cloudflare R2 storage. The mock entities use MongoDB-style `_id`, `tenantId`, embedded provider objects, campaign schedules, contact consent objects and billing/audit collection shapes.
+
+## Enabled Frontend Features
+
+- Create campaign modal with channel, audience, schedule, type, budget and message fields
+- Email, WhatsApp, SMS and Voice campaign creation flows
+- Campaign pause, resume, stop and duplicate actions
+- Global search for campaigns and contacts
+- Channel and status filters
+- Add contact form
+- CSV/Excel demo import action
+- Contacts CSV export action
+- Analytics cards and responsive dummy charts
+- Billing plan selection, wallet credit and invoice action
+- MongoDB collection/data-model preview
+- Admin demo controls
+- Support ticket creation and resolve actions
+- Responsive sidebar/top navigation for desktop and mobile
 
 ## Run Locally
 
