@@ -31,6 +31,33 @@ The frontend dummy data is structured for a future Node.js + Express.js + TypeSc
 - Support ticket creation and resolve actions
 - Responsive sidebar/top navigation for desktop and mobile
 
+## Frontend Folder Structure
+
+```txt
+src/
+  components/
+    admin/
+    billing/
+    campaigns/
+    contacts/
+    forms/
+    layout/
+    sections/
+    support/
+    ui/
+  data/
+    mockData.ts
+  types/
+    index.ts
+  utils/
+    format.ts
+  App.tsx
+  main.tsx
+  styles.css
+```
+
+The application is split by domain and UI responsibility instead of keeping all JSX and data inside one file.
+
 ## Run Locally
 
 ```bash
@@ -43,3 +70,4 @@ npm run dev
 ```bash
 npm run build
 ```
+# Communication-Automation-Platform
